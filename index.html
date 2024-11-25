@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href=css\normalize.css>
+    <link rel="stylesheet" href=css\style.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href=media\header.jpg>
+  </head>
+  <body>
+    <header>
+      <img src=media\header.jpg alt="header">
+      <h1>Asano Reku</h1>
+      <p>Student of MYU / Frontend Engineer</p>
+    </header>
+    <main>
+      <div class="skills">
+        <h2>SKILLS</h2>
+        <ul>
+          <li id="back-html">HTML</li>
+          <li id="back-css">CSS</li>
+          <li id="back-jquery">jQuery</li>
+        </ul>
+      </div>
+      <div class="works">
+        <h2>WORKS</h2>
+          <div>
+            <img src=media\works1.png alt="connect4">
+            <h3>Connect 4（ブラウザゲーム）</h3>
+            <p>四目並べのブラウザゲームをHTML，CSS，jQueryを用いて作成しました。
+              交互に〇✕を入れていき，縦横斜めどれかで同じマークを4マス並べると勝利です。
+              マスに置く時のルールは，一番下の行を除いてそのマスのひとつ下のマスがすでに埋まっていることです。
+              ターン表示に加え，置けないマスをクリックしたときの警告と勝負が決まった時の判定が表示される機能を実装しています。
+            </p>
+            <div class="button">
+              <button><a href="http://orbital.starfree.jp/connect4/index.html" target="_blank">Connect 4 のページへ→</a></button>
+            </div>
+          </div>
+          <div>
+            <img src=media\works2.png alt="bump">
+            <h3>BUMP OF CHICKEN アルバムギャラリー</h3>
+            <p>ロックバンド「BUMP OF CHICKEN」のアルバムをスライドショーで一覧できるギャラリーページです。
+              それぞれのアルバムをクリックすると，収録されている曲がリストで表示され，曲名をクリックすると聴くことができます。
+              スライドショーには，ボタンでのスライドのほか，時間経過で自動スライドする機能を実装しています。
+              <br>※著作権の関係上，アップロードしていません。</p>
+          </div>
+          <div>
+            <img src=media\works3.png alt="color">
+            <h3>カラーコード検索 / カラーパレットツール</h3>
+            <p>カラーコード検索は，カラーコードから色のサンプルを表示させ，複数の色の組み合わせイメージを確認できるツールです。
+              カラーパレットは，パレット内の任意の色を選択したり，RGBの各要素のバーを調節したりして，欲しい色のカラーコードをすぐに入手できるページです。
+              色のサンプルを検索できるサイトには使い勝手の良いものがあまりないと感じたため，ロードが不要で使いやすいシンプルな機能に絞って自作しました。
+            </p>
+            <div class="button">
+              <button><a href="http://orbital.starfree.jp/colorcode/index.html" target="_blank">カラーコード検索ツール のページへ→</a></button>
+              <button><a href="http://orbital.starfree.jp/colorpalette/index.html" target="_blank">カラーパレットツール のページへ→</a></button>
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 Asano Reku</p>
+    </footer>
+  </body>
+</html>
